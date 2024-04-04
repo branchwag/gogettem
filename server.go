@@ -31,7 +31,7 @@ func main() {
 
 	e.GET("/", func(c echo.Context) error {
 		//return c.String(http.StatusOK, "Hello, World!")
-		return c.Render(http.StatusOK, "index", "muhaha")
+		return c.Render(http.StatusOK, "index", "jimmy")
 	})
 	e.Logger.Fatal(e.Start(":1323"))
 }
